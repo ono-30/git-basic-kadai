@@ -1,0 +1,41 @@
+PS C:\Users\onomi.WINDOWS30\OneDrive> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\onomi.WINDOWS30\OneDrive       
+
+
+Mode                 LastWriteTime         Length Name    
+----                 -------------         ------ ----    
+d-----        2024/06/04     18:14                git_cha 
+                                                  llenge  
+
+
+PS C:\Users\onomi.WINDOWS30\OneDrive> cd git_challenge
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> git init
+Initialized empty Git repository in C:/Users/onomi.WINDOWS30/OneDrive/git_challenge/.git/
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> echo "hello,_world!" >> hello_world.txt
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> git add hello_world.txt
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> git commit -m "1回目のコミット"
+[main (root-commit) cbb0e3c] 1回目のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> git add hello_world.txt
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> git commit -m "2回目のコミット 追記：こんにちは、世界！"        
+[main 95d21d6] 2回目のコミット 追記：こんにちは、世界！
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> git log --oneline
+95d21d6 (HEAD -> main) 2回目のコミット 追記：こんにちは、
+世界！
+cbb0e3c 1回目のコミット
+PS C:\Users\onomi.WINDOWS30\OneDrive\git_challenge> mkdir kadai_005
+
+
+    ディレクトリ: C:\Users\onomi.WINDOWS30\OneDrive\git_c
+    hallenge
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2024/06/04     18:40                kadai_0
+                                                  05
+
